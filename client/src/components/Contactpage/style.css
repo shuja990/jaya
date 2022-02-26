@@ -176,6 +176,8 @@
 
 .wpo-contact-form-map .info-wrap {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -210,6 +212,7 @@
   box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
   padding: 50px 40px;
   margin-bottom: 30px;
+  height: 260px;
 }
 
 .info-item h2 {

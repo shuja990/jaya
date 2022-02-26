@@ -79,6 +79,8 @@
   
   .wpo-case-text-top {
     padding: 30px;
+    /* height: 200px; */
+    min-height: 300px;
   }
   
   .wpo-case-content ul {
@@ -142,6 +144,7 @@
   
     .wpo-case-content h2 {
         font-size: 20px;
+        height: 120px;
     }
   }
   

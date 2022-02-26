@@ -23,7 +23,7 @@ const Suppo = (props) => {
                 <div className="wpo-mission-wrap">
                     <div className="row-mission">
                         <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item">
+                            <div className="wpo-support-item">
                                 <div className="wpo-mission-icon-5">
                                     <img src={ms1} alt=""/>
                                 </div>
@@ -34,31 +34,30 @@ const Suppo = (props) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item">
+                            <div className="wpo-support-item">
                                 <div className="wpo-mission-icon-6">
                                     <img src={ms1} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2>Online</h2>
                                     <p>Make a tax deductible donation‏.</p>
-                                    <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now</Link>
     
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item">
+                            <div className="wpo-support-item">
                                 <div className="wpo-mission-icon-7">
                                     <img src={ms4} alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
                                     <h2>Over the Phone</h2>
-                                    <p>It's easy to donate offline too.<br/>Tel: 1-877-334-2276</p>
+                                    <p>It's easy to donate offline too.<ws></ws> <a href='tel:1-877-334-2276'>Call Now </a></p>
                                 </div>
                             </div>
                         </div>
                         {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
-                            <div className="wpo-mission-item">
+                            <div className="wpo-support-item">
                                 <div className="wpo-mission-icon-8">
                                     <img src={ms2} alt=""/>
                                 </div>
@@ -68,6 +67,9 @@ const Suppo = (props) => {
                                 </div>
                             </div>
                         </div> */}
+                    </div>
+                    <div style={{display:"flex",justifyContent:"center",marginTop:"10px"}}>
+                    <Link onClick={ClickHandler} to="/donate" className="theme-btn">Donate Now</Link>
                     </div>
                 </div>
             </div>

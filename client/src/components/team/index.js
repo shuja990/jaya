@@ -26,7 +26,7 @@ const TeamSection = (props) => {
                                 <img src={tm1} alt=""/>
                             </div>
                             <div className="wpo-team-content">
-                                <div className="wpo-team-text-sub">
+                               <div className="wpo-team-text-sub">
                                     <h2><Link to="/volunteer">JÉNINE SHEPHERD</Link> </h2>
                                     <span>PRESIDENT & BOARD MEMBER</span>
                                     <ul>

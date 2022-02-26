@@ -16,13 +16,14 @@
 .wpo-mission-item h2 {
     font-size: 22px;
     font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.wpo-mission-item p {
-    max-width: 250px;
+.wpo-mission-item p,ShowMoreText {
+    /* max-width: 250px; */
     margin: auto;
+    text-align: left;
 }
 
 .wpo-mission-icon .fi:before,

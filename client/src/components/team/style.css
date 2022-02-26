@@ -42,10 +42,10 @@
 .wpo-team-content {
     position: absolute;
     right: 0px;
-    bottom: -45px;
-    width: 80%;
+    bottom: -60px;
+    /* width: 80%; */
     text-align: center;
-    padding: 30px;
+    padding: 24px;
     overflow: hidden;
 }
 

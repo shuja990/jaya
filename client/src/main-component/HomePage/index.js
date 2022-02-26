@@ -21,12 +21,12 @@ const HomePage =() => {
             <Mission/>
             <About/>
             <CaseSlide/>
-            <CounterSection/>
+            {/* <CounterSection/> */}
             <TeamSection/>
             <WorldSection/>
             <EventSection/>
             <CtaSection/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

@@ -87,6 +87,7 @@ body{background-color:#eee;}
   overflow: hidden;
   position: relative;
   text-align: center;
+  height: 1060px;
 }
 
 #generic_price_table .generic_content .generic_head_price {
@@ -219,18 +220,27 @@ body{background-color:#eee;}
   -o-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 } 
-@media (max-width: 320px) { 
+@media (max-width: 320px) {
+  #generic_price_table .generic_content{
+    /* margin-bottom:75px; */
+    height: fit-content;
+  } 
 }
 
 @media (max-width: 767px) {
   #generic_price_table .generic_content{
     margin-bottom:75px;
+    height: fit-content;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #generic_price_table .col-md-3{
     float:left;
     width:50%;
+  }
+  #generic_price_table .generic_content{
+    /* margin-bottom:75px; */
+    height: fit-content;
   }
   
   #generic_price_table .col-md-4{

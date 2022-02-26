@@ -9,20 +9,21 @@
     margin-top: 10px;
 }
 
-.wpo-mission-item {
+.wpo-support-item {
     text-align: center;
 }
 
-.wpo-mission-item h2 {
+.wpo-support-item h2 {
     font-size: 22px;
     font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.wpo-mission-item p {
-    max-width: 250px;
+.wpo-support-item p,ShowMoreText {
+    /* max-width: 250px; */
     margin: auto;
+    text-align: left;
 }
 
 .wpo-mission-icon .fi:before,
@@ -50,7 +51,7 @@
 
 
 @media(max-width: 992px) {
-    .wpo-mission-item {
+    .wpo-support-item {
         margin-bottom: 30px;
     }
 
@@ -78,18 +79,19 @@
     margin: auto;
 }
 
-.wpo-mission-item {
+.wpo-support-item {
     background: #fff;
     box-shadow: 0px 1px 40px 0px rgba(40, 63, 116, 0.1);
-    padding: 50px 30px;
+    padding: 20px 30px;
+    height: 250px;
 }
 
 @media(max-width: 1199px) {
-    .wpo-mission-item {
+    .wpo-support-item {
         padding: 50px 20px;
     }
 
-    .wpo-mission-item h2 {
+    .wpo-support-item h2 {
         font-size: 20px;
     }
 }
